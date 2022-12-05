@@ -1,0 +1,208 @@
+:root {
+        --font-size-sm: 1rem;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Raleway', sans-serif;
+}
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my css */
+
+body {
+    background-image: linear-gradient(to bottom, #c0c0c0, #c0cadd, #aad9f6, #83eaff, #5dfbfb);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+main {
+    margin: auto;
+    padding:20px;
+    border-radius:5px ;
+    background: #eee;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    font-style:italic;
+    text-align: center;
+    font-size: var(--font-size-sm);
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul {
+    max-width: 50vw;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    list-style: disc;
+    margin: 20px 0;
+}
+
+blockquote {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    max-width: 50vw;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 2rem;
+}
+
+strong {
+    margin-right: 1rem;
+}
+
+#img-div {
+    background: whitesmoke;
+    box-shadow: -1px 7px 30px rgba(0, 0, 0, 0.2)  ; 
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0;
+}
+
+#img-caption {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    max-width: 50vw;
+    margin: 20px auto;
+    text-align: center;
+    font-size: var(--font-size-sm);
+
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+
+}
+
